@@ -18,6 +18,8 @@
     border-width: 3px;
     background-color: transparent;
     cursor: pointer;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
 }
 
 
@@ -37,6 +39,8 @@
     border-width: 3px;
     background-color: transparent;
     cursor: pointer;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
     
 }
 
@@ -62,6 +66,8 @@
     border-width: 3px;
     background-color: transparent;
     cursor: pointer;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
 }
 
 .secondry-button:hover{
@@ -396,8 +402,8 @@ nav .wrapper i{
     background-color: #3d613b;
     flex-direction: column;
     transition-duration: 0.7s;
-    left: 100px;
-    right: 100px;
+    left: 50px;
+    right: 50px;
     gap: 20px;
     padding: 20px;
     z-index: 10000;
