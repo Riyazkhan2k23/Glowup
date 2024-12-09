@@ -321,7 +321,7 @@ nav .wrapper ul li a.active{
     color: white;
 }
 
-.footerbottom .wrapper p a:hover{
+.footerbottom .wrapper .riyaz a{
     text-decoration: underline;
 }
 
@@ -725,33 +725,8 @@ nav .wrapper i{
 
 
 /*  */
-/* footer bottom */
-@media only screen and (max-width: 624px){
-
-.footerbottom{
-    height: auto;
-    width: 100%;
-    background-color: #3D613B;
-}
-
-.footerbottom .wrapper{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.footerbottom .wrapper p{
-    width: 100%;
-    color: white;
-    /* font-size: 16px; */
-}
-
-.footerbottom .wrapper p{
-    font-size: 14px;
-    text-align: center;
-} 
-}
+'
+'
 
 
 

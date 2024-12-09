@@ -110,19 +110,20 @@ nav .wrapper .icon i {
     position: relative;
 }
 
-.sec-nav .wrapper .right form i {
+.sec-nav .wrapper .right form button {
     /* display: flex;
     posi */
     position: absolute;
     /* color: blue; */
-    right: 5px;
+    right: 8px;
     justify-content: center;
     align-items: center;
-    top: 25%;
-    /* background-color: #3D613B; */
+    top: 13%;
+    background-color: transparent;
     /* color: whitesmoke; */
-    /* border: 30px; */
+    border: 0px;
     padding-right: 4px;
+    font-size: 18px;
 
 }
 
@@ -358,6 +359,9 @@ nav .wrapper .icon i {
     padding-bottom: 8px;
     /* text-decoration: none; */
     cursor: pointer;
+    /* display: flex;
+    flex-direction: column;
+    gap: 10px; */
 }
 
 .haircare .wrapper .card-container .card:hover {
@@ -365,13 +369,23 @@ nav .wrapper .icon i {
     /* transition-duration: 0.7s; */
 }
 
-.haircare .wrapper .card-container .card img {
-    height: 60%;
+.haircare .wrapper .card-container .card .img-container {
+    height: 70%;
     width: 100%;
     /* background-color: lightgreen; */
+    /* object-fit: cover;
+    object-position: center; */
+    /* margin-bottom: 10px; */
+}
+
+
+.haircare .wrapper .card-container .card .img-container img {
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: center;
-    /* margin-bottom: 10px; */
+    /* opacity: 25%; */
+    background-color: aqua;
 }
 
 .haircare .wrapper .card-container .card .content {
@@ -379,11 +393,11 @@ nav .wrapper .icon i {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     /* gap: 4px; */
     /* background-color: yellow; */
-    /* padding-bottom: 9px; */
+    padding-top: 9px;
     /* text-decoration: none; */
 }
 
@@ -440,7 +454,7 @@ nav .wrapper .icon i {
 .haircare .wrapper .card-container .card .content .rating i {
     font-size: 16px;
     color: #fb0;
-    padding-top: 4px;
+    padding-top: 6px;
     padding-right: 5px;
 }
 
@@ -536,13 +550,23 @@ nav .wrapper .icon i {
     /* transition-duration: 0.7s; */
 }
 
-.skincare .wrapper .card-container .card img {
-    height: 60%;
+.skincare .wrapper .card-container .card .img-container {
+    height: 70%;
     width: 100%;
     /* background-color: lightgreen; */
+    /* object-fit: cover;
+    object-position: center; */
+    /* margin-bottom: 10px; */
+}
+
+
+.skincare .wrapper .card-container .card .img-container img {
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: center;
-    /* margin-bottom: 10px; */
+    /* opacity: 25%; */
+    background-color: aqua;
 }
 
 .skincare .wrapper .card-container .card .content {
@@ -550,11 +574,12 @@ nav .wrapper .icon i {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     /* gap: 4px; */
     /* background-color: yellow; */
     /* padding-bottom: 9px; */
+    padding-top: 9px;
 }
 
 .skincare .wrapper .card-container .card .content .productname{
@@ -699,13 +724,23 @@ nav .wrapper .icon i {
     /* transition-duration: 0.7s; */
 }
 
-.cosmetics .wrapper .card-container .card img {
-    height: 60%;
+.cosmetics .wrapper .card-container .card .img-container {
+    height: 70%;
     width: 100%;
     /* background-color: lightgreen; */
+    /* object-fit: cover;
+    object-position: center; */
+    /* margin-bottom: 10px; */
+}
+
+
+.cosmetics .wrapper .card-container .card .img-container img {
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: center;
-    /* margin-bottom: 10px; */
+    /* opacity: 25%; */
+    background-color: aqua;
 }
 
 .cosmetics .wrapper .card-container .card .content {
@@ -713,11 +748,12 @@ nav .wrapper .icon i {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     /* gap: 4px; */
     /* background-color: yellow; */
     /* padding-bottom: 9px; */
+    padding-top: 9px;
 }
 
 .cosmetics .wrapper .card-container .card .content .productname{
@@ -1069,7 +1105,7 @@ nav .wrapper .icon i {
 
     .haircare .wrapper .card-container .card {
         /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
-        height: 300px;
+        height: 350px;
         width: 45%;
         /* background-color: lightskyblue;  */
         padding-bottom: 8px;
@@ -1113,15 +1149,15 @@ nav .wrapper .icon i {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 15px;
+        /* gap: 15px; */
     }
 
     .haircare .wrapper .card-container .card {
         /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
-        height: 300px;
+        height: 350px;
         width: 45%;
         /* background-color: lightskyblue;  */
-        padding-bottom: 8px;
+        padding-bottom: 20px;
         /* text-decoration: none; */
     }
     
@@ -1162,10 +1198,10 @@ nav .wrapper .icon i {
 
 .haircare .wrapper .card-container .card {
     /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
-    height: 300px;
+    height: 350px;
     width: 100%;
     /* background-color: lightskyblue;  */
-    padding-bottom: 8px;
+    padding-bottom: 20px;
     /* text-decoration: none; */
 }
 
@@ -1228,7 +1264,7 @@ nav .wrapper .icon i {
 
     .skincare .wrapper .card-container .card {
         /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
-        height: 300px;
+        height: 350px;
         width: 45%;
         /* background-color: lightskyblue;  */
         padding-bottom: 8px;
@@ -1268,15 +1304,15 @@ nav .wrapper .icon i {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 15px;
+        /* gap: 15px; */
     }
 
     .skincare .wrapper .card-container .card {
         /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
-        height: 300px;
+        height: 350px;
         width: 45%;
         /* background-color: lightskyblue;  */
-        padding-bottom: 8px;
+        padding-bottom: 20px;
         /* text-decoration: none; */
     }
     
@@ -1317,10 +1353,10 @@ nav .wrapper .icon i {
 
 .skincare .wrapper .card-container .card {
     /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
-    height: 300px;
+    height: 350px;
     width: 100%;
     /* background-color: lightskyblue;  */
-    padding-bottom: 8px;
+    padding-bottom: 20px;
     /* text-decoration: none; */
 }
 
@@ -1380,12 +1416,12 @@ nav .wrapper .icon i {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 15px;
+        /* gap: 15px; */
     }
 
     .cosmetics .wrapper .card-container .card {
         /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
-        height: 300px;
+        height: 350px;
         width: 45%;
         /* background-color: lightskyblue;  */
         padding-bottom: 8px;
@@ -1430,10 +1466,10 @@ nav .wrapper .icon i {
 
     .cosmetics .wrapper .card-container .card {
         /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
-        height: 300px;
+        height: 350px;
         width: 45%;
         /* background-color: lightskyblue;  */
-        padding-bottom: 8px;
+        padding-bottom: 20px;
         /* text-decoration: none; */
     }
     
@@ -1474,10 +1510,10 @@ nav .wrapper .icon i {
 
 .cosmetics .wrapper .card-container .card {
     /* box-shadow: 0px 0px 10px rgb(0, 0, 0.5); */
-    height: 300px;
+    height: 350px;
     width: 100%;
     /* background-color: lightskyblue;  */
-    padding-bottom: 8px;
+    padding-bottom: 20px;
     /* text-decoration: none; */
 }
 
