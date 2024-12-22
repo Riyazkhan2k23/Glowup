@@ -28,6 +28,11 @@
     background: #3D613B;
 }
 
+a.primary-button{
+    text-decoration: none;
+    /* color: blue; */
+}
+
 .primary-product-button{
     font-size: 18px;
     font-weight: 500;
@@ -50,10 +55,12 @@
     background: #3D613B;
 }
 
-/* .secondry-button a{
+a.primary-product-button{
     text-decoration: none;
-    color: white;
-} */
+    /* color: blue; */
+}
+
+
 
 .secondry-button{
     font-size: 20px;
@@ -73,6 +80,11 @@
 .secondry-button:hover{
     color: #3D613B;
     background: white;
+}
+
+a.secondry-button{
+    text-decoration: none;
+    /* color: blue; */
 }
 
 .wrapper{
@@ -142,6 +154,10 @@ nav .wrapper ul li a.active{
     text-decoration: underline;
 }
 
+nav .wrapper ul li a.not-active:hover{
+    color: lightgreen;
+}
+
 
 /* footer */
 
@@ -197,10 +213,10 @@ nav .wrapper ul li a.active{
     color: white;
 }
 
-.footer .wrapper .brand h1 a:hover{
+/* .footer .wrapper .brand h1 a:hover{
     text-decoration: underline;
     
-}
+} */
 
 .footer .wrapper .brand p{
     text-align: center;
@@ -559,28 +575,33 @@ nav .wrapper i{
     
 .footer .wrapper .brand{
     height: 100%;
-    width: 33.3%;
+    width: 45%;
+    order: 1;
 }
 
 .footer .wrapper .menu{
     height: 100%;
-    width: 33.3%;
+    width: 45%;
+    order: 2;
 }
 
 
 .footer .wrapper .help{
     height: 100%;
-    width: 30%;
+    width: 45%;
+    order: 2;
 }
 
 .footer .wrapper .contact{
     height: 100%;
-    width: 50%;
+    width: 45%;
+    order: 1;
 }
 
 .footer .wrapper .media{
     height: 100%;
-    width: 50%;
+    width: 45%;
+    order: 3;
 }
 
 
